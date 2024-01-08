@@ -20,7 +20,7 @@ def run_eda(total_df):
     total_df['DEAL_YMD'] = pd.to_datetime(total_df['DEAL_YMD'], format="%Y-%m-%d")
     st.markdown("## 탐색적 자료 분석 개요 \n"
                 "탐색적 자료분석 페이지입니다."
-                "여기에 독자가 넣고 싶은 추가 내용을 더 넣을 수 있습니다. 👇👇👇"
+                "👇👇👇"
                 )
 
     selected = option_menu(None, ["Home", "Visualization", "Statistics", "Map"],

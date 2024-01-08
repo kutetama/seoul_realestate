@@ -7,7 +7,7 @@ from millify import prettify
 def run_home(total_df):
     st.markdown("## 대시보드 개요 \n"
                 "본 프로젝트는 서울시 부동산 실거래가를 알려주는 대시보드입니다. "
-                "여기에 독자가 넣고 싶은 추가 내용을 더 넣을 수 있습니다. 👇👇👇"
+                "👇👇👇"
                 )
 
     total_df['DEAL_YMD'] = pd.to_datetime(total_df['DEAL_YMD'], format="%Y-%m-%d")
